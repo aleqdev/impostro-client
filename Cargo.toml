@@ -10,3 +10,9 @@ yew = { git = "https://github.com/yewstack/yew/", features = ["csr"] }
 gloo-console = "0.2"
 js-sys = "0.3"
 wasm-bindgen = "0.2"
+impostro-shared = { git = "https://github.com/necromfox/impostro-shared" }
+getrandom = { version = "*", features = ["js"] }
+web-sys = "*"
+serde = "*"
+serde_json = "*"
+reqwest-wasm = { version = "*", features = ["json"]}

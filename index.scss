@@ -1,26 +1,75 @@
-button {
-    background-color: #008f53; /* Green */
-    border: 0;
-    color: white;
-    padding: 14px 14px;
-    text-align: center;
-    font-size: 16px;
-    margin: 2px 2px;
-    width: 100px;
-  }
-  
-  .counter {
-      color: #008f53;
-      font-size: 48px;
-      text-align: center;
-  }
-  
-  .footer {
-      text-align: center;
-      font-size: 12px;
-  }
-  
-  .panel {
-    display: flex;
-    justify-content: center;
-  }
+
+body {
+  background-color:#172124;
+}
+
+label {
+  color: azure;
+}
+
+#login-client-div {
+  margin: auto;
+  padding: 15%;
+  display: table; 
+  text-align: center;
+}
+
+#login-client-label {
+  display: table-row;
+  font-size: 40px;
+}
+
+#login-client-input {
+  display: table-row;
+  background-color: transparent;
+  font-size: 40px;
+  color: azure;
+  height: 2ch;
+  width: 8ch;
+  border-bottom: 1px dashed white;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  text-align: center;
+}
+
+#login-client-input:hover {
+  display: table-row;
+  background-color: transparent;
+  font-size: 40px;
+  color: azure;
+  height: 2ch;
+  width: 8ch;
+  border-bottom: 1px solid white;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  text-align: center;
+}
+
+#login-client-button {
+  font-size: 40px;
+  display: table-row;
+  background-color: transparent;
+  border-style: none;
+  border-bottom-style: dashed;
+  transition: all 150ms;
+}
+
+#login-client-button.inactive {
+  color: gray;
+  border-color: gray;
+}
+
+#login-client-button.active {
+  color: gray;
+  border-color: azure;
+}
+
+#login-client-button.active:hover {
+  color: azure;
+  border-color: azure;
+  cursor: pointer;
+}
