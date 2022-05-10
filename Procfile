@@ -1,1 +1,1 @@
-web: cargo install trunk; trunk serve --release
+web: cd www; npm install; npm run start
