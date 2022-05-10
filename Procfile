@@ -1,1 +1,1 @@
-web: ./target/release/impostro
+web: cargo install trunk; trunk serve --release
