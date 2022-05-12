@@ -4,7 +4,7 @@
     "description": "game",
     "main": "./www/index.js",
     "scripts": {
-        "heroku-prebuild": "npm install http-server wasm-pack-npm -g",
+        "heroku-prebuild": "npm install http-server wasm-pack -g",
         "build": "wasm-pack build --target web; rollup ./src/main.js --format iife --file ./www/index.js; cp ./pkg/impostro_bg.wasm ./www/impostro_bg.wasm",
         "start": "http-server ./www/ -p ${PORT:=5000} -c-1"
     },
@@ -23,6 +23,6 @@
     "homepage": "https://github.com/necromfox/impostro-client",
     "dependencies": {
         "rollup": "^2.72.1",
-        "wasm-pack-npm": "^0.1.3"
+        "wasm-pack": "^0.10.2"
     }
 }
