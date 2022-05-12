@@ -1,0 +1,12 @@
+{
+  "name": "impostro",
+  "version": "0.1.0",
+  "files": [
+    "impostro_bg.wasm",
+    "impostro.js",
+    "impostro.d.ts"
+  ],
+  "module": "impostro.js",
+  "types": "impostro.d.ts",
+  "sideEffects": false
+}
