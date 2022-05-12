@@ -1,3 +1,5 @@
 /target
-/www
+/www/node_modules/
+/www/index.js
+/www/impostro_bg.wasm
 /pkg

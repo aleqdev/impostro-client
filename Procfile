@@ -1,1 +1,1 @@
-web: cd www; npm install; npm run start
+web: npm run start

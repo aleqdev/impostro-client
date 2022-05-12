@@ -23,19 +23,7 @@ impl Component for App {
     fn view(&self, ctx: &Context<Self>) -> Html {
         html! {
             <>
-                <head>
-                    <link href={"https://fonts.googleapis.com/css?family=Comfortaa" } rel={ "stylesheet" }/>
-                    <style>
-                    {"
-                    body {
-                        font-family: 'Comfortaa';font-size: 22px;
-                    }
-                    "}
-                    </style>
-                </head>
-                <body>
-                    <crate::login::LoginMenu/>
-                </body>
+                <crate::login::LoginMenu/>
             </>
         }
     }
