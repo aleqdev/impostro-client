@@ -1,7 +1,4 @@
 use impostro_shared::{session::SessionId, api::ValidateSessionId};
-use serde::Serialize;
-use wasm_bindgen::JsValue;
-use web_sys::{Request, RequestInit};
 use yew::{html, Component, Context, Html};
 
 pub enum LoginMsg {

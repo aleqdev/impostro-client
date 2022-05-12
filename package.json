@@ -1,0 +1,28 @@
+{
+    "name": "impostro",
+    "version": "0.1.0",
+    "description": "game",
+    "main": "./www/index.js",
+    "scripts": {
+        "heroku-prebuild": "npm install http-server -g",
+        "build": "wasm-pack build --target web; rollup ./src/main.js --format iife --file ./www/index.js; cp ./pkg/impostro_bg.wasm ./www/impostro_bg.wasm",
+        "start": "http-server ./www/ -p ${PORT:=5000} -c-1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/necromfox/impostro-client.git"
+    },
+    "keywords": [
+        "webassembly",
+        "wasm",
+        "rust",
+        "webpack"
+    ],
+    "author": "Alexander Nazarov <necromfox@gmail.com>",
+    "license": "(MIT OR Apache-2.0)",
+    "homepage": "https://github.com/necromfox/impostro-client",
+    "dependencies": {
+        "rollup": "^2.72.1",
+        "wasm-pack": "^0.10.2"
+    }
+}
