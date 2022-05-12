@@ -23,6 +23,6 @@
     "homepage": "https://github.com/necromfox/impostro-client",
     "dependencies": {
         "rollup": "^2.72.1",
-        "wasm-pack": "^0.10.2"
+        "wasm-pack-npm": "^0.1.3"
     }
 }
