@@ -28,6 +28,7 @@ impl Component for LoginMenu {
                 self.session_id = input;
             },
             Self::Message::Connect => {
+                /* 
                 use reqwest_wasm::*;
                 gloo_console::log!("Sending req");
 
@@ -53,6 +54,7 @@ impl Component for LoginMenu {
                     }
                     
                 })())
+                */
             },
             Self::Message::ValidationResult(is_valid) => {},
             Self::Message::None => {}

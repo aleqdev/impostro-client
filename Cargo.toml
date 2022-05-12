@@ -19,3 +19,6 @@ web-sys = "*"
 serde = "*"
 serde_json = "*"
 reqwest-wasm = { version = "*", features = ["json"]}
+ws_stream_wasm = "*"
+futures = "*"
+wasm-bindgen-futures = "*"

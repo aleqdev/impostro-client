@@ -4,6 +4,7 @@
   "files": [
     "impostro_bg.wasm",
     "impostro.js",
+    "impostro_bg.js",
     "impostro.d.ts"
   ],
   "module": "impostro.js",
